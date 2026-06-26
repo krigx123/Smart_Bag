@@ -79,9 +79,11 @@ export interface FirebaseSafeZone {
   lng: number;
   radius: number;
   color: string;
+  description?: string;
   entryTime?: string;
   exitTime?: string;
   isActive: boolean;
+  createdAt?: number;
 }
 
 export interface FirebaseData {
